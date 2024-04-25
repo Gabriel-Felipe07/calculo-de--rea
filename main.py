@@ -25,7 +25,7 @@ while calcular_novamente == "s":
     print('\n')
 
     #verificação de existencia
-    if medida_lado_B + medida_lado_C < medida_lado_A or medida_lado_A + medida_lado_C < medida_lado_B or medida_lado_A + medida_lado_B < medida_lado_C:
+    if medida_lado_B + medida_lado_C <= medida_lado_A or medida_lado_A + medida_lado_C <= medida_lado_B or medida_lado_A + medida_lado_B <= medida_lado_C:
         print(colorama.Fore.RED + 'As medidas Digitadas não formam um triângulo!')
         print('\n')
         print('Tente novamente!')
